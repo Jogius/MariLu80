@@ -1,0 +1,131 @@
+{
+  "header": {
+    "title": "MariLu80 - Multimedia Sammlung"
+  },
+  "general": {
+    "name": "Name",
+    "nickname": "Spitzname",
+    "email": "E-Mail",
+    "year": "Jahr",
+    "context": "Kontext",
+    "text": "Text",
+    "id": "ID",
+    "submit": "Hochladen",
+    "public?": "In 'Alle anschauen' sichtbar?",
+    "submitter": {
+      "title": "Informationen über dich"
+    }
+  },
+  "body": {
+    "nav": {
+      "uploadphoto": "Foto hochladen",
+      "uploadvideo": "Video hochladen",
+      "uploadtext": "Text hochladen",
+      "searchentry": "Eintrag suchen",
+      "viewall": "Alle anschauen"
+    }
+  },
+  "home": {
+    "content": {
+      "part1": "Für Maria Luisa Rosell Pons' 80ten Geburtstag versuchen wir (Viktor und Julius Makowski) so viele Fotos, Videos, Geschichten und im Prinzip alle wichtigen, interessanten oder lustigen Sachen, die mit Maria Luisa im Zusammenhang stehen, zu sammeln. Aus dem Grund würden wir uns sehr freuen, wenn du dir etwas Zeit nehmen könntest, um deine Fotos, Videos und dein Gedächtnis zu durchsuchen, und alles hochzuladen, was du glaubst das uns oder ihr gefallen könnte!",
+      "part2": "Auf der linken Seite dieser Website kannst du Links zu drei verschiedenen Formularen finden: eins um Fotos, eins um Videos und eins um Texte hochzuladen. Auf jeder dieser Seiten hast du die Möglichkeit, einige Informationen einzutragen: zuerst Informationen über dich, also deinen Namen, deinen Spitznamen oder deine E-Mail Addresse (wenn du lieber anonym bleiben möchtest, kannst du dieser Felder auch leer lassen). Weiterhin kannst du das Jahr in dem das Foto / Video gemacht wurde beziehungsweise in dem die Geschichte stattgefunden hat (falls du es weißt), und (für Fotos und Videos) ein bisschen Kontext, also wo es gemacht wurde, was davor / danach passiert ist und andere Informationen die du mit dem Foto zusammen anzeigen lassen möchtest.",
+      "part3": "Beim uploaden kannst du auswählen, ob das Medium für alle sichtbar sein soll (im 'Alle anschauen' Tab). Unabhängig von dieser Auswahl wird das Medium allerdings in unserer Datenbank und auf unserem Server gespeichert, uns kann von uns benutzt werden."
+    }
+  },
+  "uploadphoto": {
+    "form": {
+      "title": "Fotos für Maria Luisas 80ten Geburtstag hochladen",
+      "photo": {
+        "title": "Foto zum hochladen",
+        "nofilename": "Kein Foto ausgewählt",
+        "placeholder": {
+          "filedrag": "Klicke hier oder benutze drag & drop, um ein Foto auszuwählen"
+        }
+      },
+      "photo-info": {
+        "title": "Informationen über das Foto",
+        "placeholder": {
+          "context": "Kontext (Wo ist das Foto entstanden? Wieso gefällt es dir? Was ist vor / nach der Aufnahme passiert?)"
+        }
+      }
+    }
+  },
+
+  "uploadvideo": {
+    "form": {
+      "title": "Videos für Maria Luisas 80ten Geburtstag hochladen",
+      "video": {
+        "title": "Video zum hochladen",
+        "nofilename": "Kein Video ausgewählt",
+        "placeholder": {
+          "filedrag": "Klicke hier oder benutze drag & drop, um ein Video auszuwählen"
+        }
+      },
+      "video-info": {
+        "title": "Informationen über das Video",
+        "placeholder": {
+          "context": "Kontext (Wo ist das Video entstanden? Wieso gefällt es dir? Was ist vor / nach der Aufnahme passiert?)"
+        }
+      }
+    }
+  },
+
+  "uploadtext": {
+    "form": {
+      "title": "Geschichten oder einfach Text für Maria Luisas 80ten Geburtstag hochladen",
+      "text": {
+        "title": "Text zum hochladen",
+        "nofilename": "Keine Textdatei ausgewählt",
+        "placeholder": {
+          "filedrag": "Klicke hier oder benutze drag/drop, um eine Textdatei auszuwählen",
+          "text": "schreibe hier die Geschichte/den Text oder lade eine Textdatei hoch"
+        }
+      },
+      "text-info": {
+        "title": "Informationen über den Text"
+      }
+    }
+  },
+
+  "searchentry": {
+    "form": {
+      "title": "Eintrag suchen",
+      "filetype": {
+        "title": "Dateityp auswählen",
+        "selectfiletype": {
+          "none": "Wähle den Dateitypen aus",
+          "photo": "Foto",
+          "video": "Video",
+          "text": "Text"
+
+        }
+      },
+      "search": {
+        "title": "Gib einen Suchwert ein",
+        "placeholder": {
+          "searchvalue": "Suchwert"
+        },
+        "searchparam": {
+          "none": "Wähle den Wert aus, nach dem du suchst"
+        }
+      },
+      "submit": "Suchen"
+    }
+  },
+
+  "viewall": {
+    "photos": "Alle Fotos",
+    "videos": "Alle Videos",
+    "texts": "Alle Texte"
+  },
+
+  "footer": {
+    "contactus": "Kontaktiere uns"
+  },
+
+  "notfound": {
+    "content": {
+      "error": "Error 404: Seite nicht gefunden"
+    }
+  }
+}

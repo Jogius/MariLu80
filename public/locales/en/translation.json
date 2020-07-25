@@ -1,0 +1,131 @@
+{
+  "header": {
+    "title": "MariLu80 - Multimedia collection"
+  },
+  "general": {
+    "name": "name",
+    "nickname": "nickname",
+    "email": "e-mail",
+    "year": "year",
+    "context": "context",
+    "text": "text",
+    "id": "ID",
+    "submit": "submit",
+    "public?": "Visible on 'View all'?",
+    "submitter": {
+      "title": "Information about you"
+    }
+  },
+  "body": {
+    "nav": {
+      "uploadphoto": "Upload Photo",
+      "uploadvideo": "Upload Video",
+      "uploadtext": "Upload Text",
+      "searchentry": "Search entry",
+      "viewall": "View all"
+    }
+  },
+  "home": {
+    "content": {
+      "part1": "For Maria Luisa Rosell Pons' 80th birthday, we (Viktor and Julius Makowski) are trying to collect as many photos, videos, stories and basically anything important, interesting or fun that happened that has something to do with her! For that reason, we would really appreciate if you could take some time, search through your photos, videos and your brain and upload anything that you think would be nice for us and her to look at.",
+      "part2": "On the left side of this page, you can find links to three different submission forms: photo, video and text. In each of them, you have to possibility to enter different information: first of all, information about yourself, so your name, your nickname or you e-mail address (if you prefer to stay anonymous, you can leave these fields empty). Furthermore, you are able to enter the year in which the photo/video was taken or the story happened (if you know it), and (for photos and videos) some context, so where it was taken, what happened before/afterwards and other information you would like to be displayed with the photo.",
+      "part3": "Upon uploading, you can decide whether the medium should be visible by anyone (in the 'View all' tab). However, no matter what you use, the medium will be saved in a database and on our server and can be used by us."
+    }
+  },
+  "uploadphoto": {
+    "form": {
+      "title": "Upload photos for Maria Luisas 80th birthday",
+      "photo": {
+        "title": "Photo to upload",
+        "nofilename": "No photo selected",
+        "placeholder": {
+          "filedrag": "Click to select or drop photo here"
+        }
+      },
+      "photo-info": {
+        "title": "Information about the photo",
+        "placeholder": {
+          "context": "context (Where did this photo come to be? Why do you like it? What happened before/afterwards?)"
+        }
+      }
+    }
+  },
+
+  "uploadvideo": {
+    "form": {
+      "title": "Upload videos for Maria Luisas 80th birthday",
+      "video": {
+        "title": "Video to upload",
+        "nofilename": "No video selected",
+        "placeholder": {
+          "filedrag": "Click to select or drop video here"
+        }
+      },
+      "video-info": {
+        "title": "Information about the photo",
+        "placeholder": {
+          "context": "context (Where did this video come to be? Why do you like it? What happened before/afterwards?)"
+        }
+      }
+    }
+  },
+
+  "uploadtext": {
+    "form": {
+      "title": "Upload stories or just text for Maria Luisas 80th birthday",
+      "text": {
+          "title": "Text to upload",
+          "nofilename": "No text file selected",
+          "placeholder": {
+            "filedrag": "Click to select or drop textfile here",
+            "text": "enter story/text or upload text file"
+          }
+      },
+      "text-info": {
+        "title": "Information about the text"
+      }
+    }
+  },
+
+  "searchentry": {
+    "form": {
+      "title": "Search entry",
+      "filetype": {
+        "title": "Select filetype",
+        "selectfiletype": {
+          "none": "Please select filetype",
+          "photo": "photo",
+          "video": "video",
+          "text": "text"
+
+        }
+      },
+      "search": {
+        "title": "Enter search value",
+        "placeholder": {
+          "searchvalue": "search value"
+        },
+        "searchparam": {
+          "none": "Select the value you are searching for"
+        }
+      },
+      "submit": "Search"
+    }
+  },
+
+  "viewall": {
+    "photos": "All photos",
+    "videos": "All videos",
+    "texts": "All texts"
+  },
+
+  "footer": {
+    "contactus": "Contact us"
+  },
+
+  "notfound": {
+    "content": {
+      "error": "Error 404: Page not found"
+    }
+  }
+}

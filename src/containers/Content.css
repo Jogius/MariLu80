@@ -1,0 +1,124 @@
+.content * {
+    margin: 10px 0px 10px 0px;
+    max-width: 100%;
+}
+
+.content input,
+.content select {
+    width: 100%;
+}
+
+.content fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.content legend {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.content button {
+    font-size: 1em;
+    width: 100%;
+    height: 5vh;
+    border: none;
+    outline: none;
+}
+
+.content .viewall {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content .viewall .mediaset {
+    display: inline;
+    width: 100%;
+}
+
+.content .viewall textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+
+.content .viewall .col3 {
+    width: 31.2%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    float: left;
+}
+
+.content #selectedfile {
+    display: block;
+    max-width: 100%;
+    border: 2px dashed #fff;
+}
+
+.content #selectedfile[src=""] {
+    display: none;
+}
+
+.content #filedrag {
+    font-weight: bold;
+    text-align: center;
+    padding: 1em 0;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.content #filedrag.hover {
+    color: #f00;
+    border-color: #f00;
+    border-style: solid;
+    box-shadow: inset 0 3px 4px #888;
+}
+
+.content #file {
+    display: none;
+}
+
+.content #htmlforfile {
+    font-weight: bold;
+    text-align: center;
+    padding: 1em 0;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+}
+
+.content #context,
+.content #textfield {
+    width: 100%;
+    height: 20vh;
+    resize: none;
+}
+
+.content #submit {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content #loader {
+    border: 12px solid #f3f3f3;
+    border-top: 12px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    align-self: center;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
