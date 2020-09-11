@@ -1,10 +1,14 @@
+html {
+  zoom: 0%;
+}
+
 .App {
   height: 100%;
-  color: #fff;
 }
 
 .body {
   display: flex;
+  flex-direction: row;
   flex: 1;
   min-height: 85vh;
 }
@@ -13,14 +17,14 @@
   flex: 1;
   background-color: #006989;
   padding: 15px;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .nav {
   order: -1;
   flex: 0 0 14vw;
   background-color: #0c293e;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .nav ul {
@@ -48,7 +52,6 @@
 
 .nav .langselector {
   background-color: #ffd600;
-  color: #fff;
 }
 
 .header {
@@ -57,8 +60,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 10vh;
   background-color: #36557f;
+  height: 10vh;
 }
 
 .title {
@@ -82,8 +85,6 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position: -webkit-sticky;
-  position: sticky;
 }
 
 .footer li a {
@@ -98,6 +99,8 @@
   background: #555;
 }
 
-@media only screen and (min-width: 768px) {
-
+@media only screen and (max-width: 768px) {
+  .body {
+    flex-direction: column;
+  }
 }

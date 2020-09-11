@@ -1,6 +1,12 @@
-.content {
+.home {
     flex: 1;
     background-color: #006989;
     padding: 15px;
-    font-size: 2.5em;
+    font-size: 1.3em;
+}
+
+@media only screen and (max-width: 786px) {
+    .home {
+        font-size: 1em;
+    }
 }

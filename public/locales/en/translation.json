@@ -12,6 +12,7 @@
     "id": "ID",
     "submit": "submit",
     "public?": "Visible on 'View all'?",
+    "results": "Results",
     "submitter": {
       "title": "Information about you"
     }
@@ -22,7 +23,8 @@
       "uploadvideo": "Upload Video",
       "uploadtext": "Upload Text",
       "searchentry": "Search entry",
-      "viewall": "View all"
+      "viewall": "View all",
+      "collage": "Collage"
     }
   },
   "home": {

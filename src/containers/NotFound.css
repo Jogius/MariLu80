@@ -1,3 +1,4 @@
-.content #error {
+.error {
     margin: 0 auto;
+    font-size: 3em;
 }

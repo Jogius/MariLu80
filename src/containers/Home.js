@@ -1,19 +1,21 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
+import React from "react";
+import {useTranslation} from "react-i18next";
 
-import './Home.css';
-
+import "./Home.css";
 
 export default function Home() {
-    const { t } = useTranslation();
+  const {t} = useTranslation();
 
-    return(
-        <div className="content">
-            {t('home.content.part1')}
-            <br /><br />
-            {t('home.content.part2')}
-            <hr />
-            {t('home.content.part3')}
-        </div>
-    )
+  return (
+    <>
+      <div className="home">
+        {t("home.content.part1")}
+        <br />
+        <br />
+        {t("home.content.part2")}
+        <hr />
+        {t("home.content.part3")}
+      </div>
+    </>
+  );
 }

@@ -12,6 +12,7 @@
     "id": "ID",
     "submit": "Hochladen",
     "public?": "In 'Alle anschauen' sichtbar?",
+    "results": "Ergebnisse",
     "submitter": {
       "title": "Informationen über dich"
     }
@@ -22,7 +23,8 @@
       "uploadvideo": "Video hochladen",
       "uploadtext": "Text hochladen",
       "searchentry": "Eintrag suchen",
-      "viewall": "Alle anschauen"
+      "viewall": "Alle anschauen",
+      "collage": "Collage"
     }
   },
   "home": {

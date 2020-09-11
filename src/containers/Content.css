@@ -3,22 +3,22 @@
     max-width: 100%;
 }
 
-.content input,
-.content select {
+input,
+select {
     width: 100%;
 }
 
-.content fieldset {
+fieldset {
     display: flex;
     flex-direction: column;
 }
 
-.content legend {
+legend {
     font-size: 1.3em;
     font-weight: bold;
 }
 
-.content button {
+button {
     font-size: 1em;
     width: 100%;
     height: 5vh;
@@ -26,44 +26,59 @@
     outline: none;
 }
 
-.content .viewall {
+.view {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.content .viewall .mediaset {
+.view .mediaset {
     display: inline;
     width: 100%;
 }
 
-.content .viewall textarea {
+.view textarea {
     width: 100%;
     height: 200px;
     resize: none;
 }
 
-.content .viewall .col3 {
-    width: 31.2%;
-    padding: 1%;
+.view .col {
     display: flex;
     flex-direction: column;
     border: 1px solid #fff;
-    float: left;
+    padding: 10px;
 }
 
-.content #selectedfile {
+.view img,
+.view textarea,
+.view video {
+    object-fit: contain;
+    width: 80%;
+    align-self: center;
+}
+
+.view pre {
+    width: 80%;
+    align-self: center;
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #fff;
+    white-space: pre-wrap;
+}
+
+#selectedfile {
     display: block;
     max-width: 100%;
     border: 2px dashed #fff;
 }
 
-.content #selectedfile[src=""] {
+#selectedfile[src=""] {
     display: none;
 }
 
-.content #filedrag {
+#filedrag {
     font-weight: bold;
     text-align: center;
     padding: 1em 0;
@@ -72,18 +87,18 @@
     cursor: pointer;
     width: 100%;
 }
-.content #filedrag.hover {
+#filedrag.hover {
     color: #f00;
     border-color: #f00;
     border-style: solid;
     box-shadow: inset 0 3px 4px #888;
 }
 
-.content #file {
+#file {
     display: none;
 }
 
-.content #htmlforfile {
+#htmlforfile {
     font-weight: bold;
     text-align: center;
     padding: 1em 0;
@@ -91,19 +106,19 @@
     border-radius: 10px;
 }
 
-.content #context,
-.content #textfield {
+#context,
+#textfield {
     width: 100%;
     height: 20vh;
     resize: none;
 }
 
-.content #submit {
+#submit {
     border-radius: 10px;
     cursor: pointer;
 }
 
-.content #loader {
+#loader {
     border: 12px solid #f3f3f3;
     border-top: 12px solid #3498db;
     border-radius: 50%;
@@ -114,10 +129,16 @@
     margin: 0 auto;
 }
 
+#ispublic {
+    width: auto;
+    margin: 10px;
+}
+
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
 
 @media only screen and (max-width: 768px) {
 

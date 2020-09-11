@@ -12,6 +12,7 @@
     "id": "ID",
     "submit": "Subir",
     "public?": "¿Visible en 'Ver todo'?",
+    "results": "Resultados",
     "submitter": {
       "title": "Información acerca de ti"
     }
@@ -22,7 +23,8 @@
       "uploadvideo": "Subir video",
       "uploadtext": "Subir texto",
       "searchentry": "Buscar entrada",
-      "viewall": "Ver todo"
+      "viewall": "Ver todo",
+      "collage": "Collage"
     }
   },
   "home": {
