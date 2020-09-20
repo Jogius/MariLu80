@@ -23,7 +23,7 @@ export default function ViewAll() {
   function RenderPhotos() {
     if (data) {
       const list = data.photos.map((d) => (
-        <a href={"/uploads/photos/" + d.path} target="_blank" rel="noopener noreferrer">
+        <a href={"/entry/photo/" + d.path} target="_blank" rel="noopener noreferrer">
           <img src={"/uploads/photos/" + d.path} alt={d.path} />
         </a>
       ));

@@ -24,7 +24,8 @@
       "uploadtext": "Subir texto",
       "searchentry": "Buscar entrada",
       "viewall": "Ver todo",
-      "collage": "Collage"
+      "collage": "Collage",
+      "diashow": "Diapositivas"
     }
   },
   "home": {
@@ -112,6 +113,9 @@
       },
       "submit": "Buscar"
     }
+  },
+  "viewentry": {
+    "submit": "Para editar"
   },
 
   "viewall": {

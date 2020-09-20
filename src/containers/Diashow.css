@@ -1,0 +1,103 @@
+.diashow {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.diashow .controls {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: absolute;
+  top: 93vh;
+  margin: 0;
+}
+
+.diashow textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+}
+
+.diashow img,
+.diashow textarea,
+.diashow video {
+    /* object-fit: contain; */
+    max-width: 60vw;
+    max-height: 66vh;
+    align-self: center;
+}
+
+.diashow pre {
+  width: 80%;
+  align-self: center;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid #fff;
+  white-space: pre-wrap;
+}
+
+.diashow button {
+  font-size: 1em;
+  width: 30vw;
+  height: 5vh;
+  border: 2px solid #000;
+  outline: none;
+  margin: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.diashow button:hover {
+  background-color: #888 !important;
+}
+
+.diashow button:active {
+  background-color: #999 !important;
+}
+
+.diashow .col {
+  display: flex;
+  flex-direction: column;
+}
+
+.diashow #name {
+  position: absolute;
+  font-size: 1.5em;
+  left: 5vw;
+  top: 70vh;
+}
+
+.diashow #nickname {
+  position: absolute;
+  font-size: 1.5em;
+  right: 5vw;
+  top: 70vh;
+}
+
+.diashow #year {
+  position: absolute;
+  font-size: 2em;
+  left: 5vw;
+  top: 65vh;
+}
+
+/* .diashow #context {
+  position: absolute;
+  right: 5vw;
+  top: 70vh;
+} */
+
+.diashow #context-pre {
+  position: absolute;
+  right: 10vw;
+  top: 75vh;
+}
+
+.diashow #forwards,
+.diashow #backwards {
+  font-size: 1.5em;
+}

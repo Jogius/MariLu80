@@ -1,12 +1,12 @@
 import React from "react";
-import {useHistory} from "react-router-dom";
+import {useHistory, withRouter} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 
 import "./App.css";
 import "./containers/Content.css";
 import Routes from "./Routes";
 
-export default function App() {
+function App() {
   const {t, i18n} = useTranslation();
   const history = useHistory();
 
@@ -16,14 +16,26 @@ export default function App() {
 
   return (
     <div className="App">
-      <div className="header">
+      <div
+        className="header"
+        style={history.location.pathname === "/diashow" ? {display: "none"} : {}}
+      >
         <div className="title">{t("header.title")}</div>
       </div>
-      <div className="body">
-        <div className="content">
+      <div
+        className="body"
+        style={history.location.pathname === "/diashow" ? {height: "100vh"} : {}}
+      >
+        <div
+          className="content"
+          style={history.location.pathname === "/diashow" ? {padding: "0"} : {}}
+        >
           <Routes />
         </div>
-        <div className="nav">
+        <div
+          className="nav"
+          style={history.location.pathname === "/diashow" ? {display: "none"} : {}}
+        >
           <ul>
             <li>
               <button
@@ -89,6 +101,15 @@ export default function App() {
               </button>
             </li>
             <li>
+              <button
+                onClick={() => {
+                  history.push("/diashow");
+                }}
+              >
+                {t("body.nav.diashow")}
+              </button>
+            </li>
+            <li>
               <button className="langselector" onClick={() => changeLanguage("de")}>
                 Deutsch
               </button>
@@ -106,7 +127,10 @@ export default function App() {
           </ul>
         </div>
       </div>
-      <div className="footer">
+      <div
+        className="footer"
+        style={history.location.pathname === "/diashow" ? {display: "none"} : {}}
+      >
         <ul>
           <li>
             <a href="mailto:julius@themakowskis.de?cc=viktor@themakowskis.de?subject=MariLu80%20Website">
@@ -118,3 +142,5 @@ export default function App() {
     </div>
   );
 }
+
+export default withRouter(App);

@@ -24,7 +24,8 @@
       "uploadtext": "Upload Text",
       "searchentry": "Search entry",
       "viewall": "View all",
-      "collage": "Collage"
+      "collage": "Collage",
+      "diashow": "Diashow"
     }
   },
   "home": {
@@ -113,6 +114,9 @@
       },
       "submit": "Search"
     }
+  },
+  "viewentry": {
+    "submit": "Edit"
   },
 
   "viewall": {

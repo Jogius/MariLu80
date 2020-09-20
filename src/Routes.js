@@ -8,6 +8,8 @@ import UploadText from "./containers/UploadText";
 import SearchEntry from "./containers/SearchEntry";
 import ViewAll from "./containers/ViewAll";
 import Collage from "./containers/Collage";
+import ViewEntry from "./containers/ViewEntry";
+import Diashow from "./containers/Diashow";
 import NotFound from "./containers/NotFound";
 
 export default function Routes() {
@@ -31,8 +33,14 @@ export default function Routes() {
       <Route exact path="/viewall">
         <ViewAll />
       </Route>
+      <Route exact path="/diashow">
+        <Diashow />
+      </Route>
       <Route exact path="/collage">
         <Collage />
+      </Route>
+      <Route exact path="/entry/:filetype/:filename">
+        <ViewEntry />
       </Route>
 
       <Route>
